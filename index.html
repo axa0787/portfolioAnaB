@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Simple</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=PT+Sans:wght@400;700&family=Playfair+Display:ital,
+    wght@0,400;0,500;0,600;1,400;1,500;1,600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/font/style.css">
+    <link rel="stylesheet" href="css/app.css">
+    <script defer src="https://code.jquery.com/jquery-3.6.1.min.js"></script>
+    <script defer src="js/app.js"></script>
+</head>
+
+<body>
+
+    <div id="cursor"></div>
+    <!--
+    - Tipografía grande
+    - Cursor personalizado
+    - Transiciones personalizadas
+    -->
+
+    <div class="circulos">
+        <svg class="circulo circulo1" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+            <path class="path" d="M57.1,-17.3C63,-0.5,49.2,24.1,29.3,37.8C9.5,51.6,-16.2,54.7,-36,42.1C-55.7,29.5,-69.5,1.2,-62.5,-17.1C-55.5,-35.5,-27.8,-43.9,-1.1,-43.6C25.6,-43.2,51.2,-34.1,57.1,-17.3Z" transform="translate(100 100)" />
+          </svg>
+        <svg class="circulo circulo2" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+            <path class="path" d="M56.1,-23C61,-3.1,45.2,18.7,22.8,36.1C0.4,53.5,-28.7,66.5,-45.5,55.9C-62.3,45.3,-66.8,11.1,-57.2,-15.3C-47.5,-41.6,-23.8,-60.1,0.9,-60.4C25.6,-60.7,51.2,-42.8,56.1,-23Z" transform="translate(100 100)" />
+        </svg>
+        <svg class="circulo circulo3" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+            <path class="path" d="M27.4,-26.3C35.5,-11.6,42.3,-0.2,40,8.9C37.8,18,26.5,24.8,13.3,33.4C0.1,42,-15,52.3,-22.2,48.1C-29.4,43.9,-28.6,25.1,-29.4,10.1C-30.1,-5,-32.4,-16.3,-27.8,-30.2C-23.1,-44.1,-11.6,-60.4,-1,-59.7C9.6,-58.9,19.2,-40.9,27.4,-26.3Z" transform="translate(100 100)" />
+          </svg>
+        <svg class="circulo circulo4" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+            <path class="path" d="M8.7,0.4C8.7,9.2,4.3,18.4,-7.2,18.4C-18.7,18.4,-37.3,9.2,-37.3,0.4C-37.3,-8.4,-18.7,-16.9,-7.2,-16.9C4.3,-16.9,8.7,-8.4,8.7,0.4Z" transform="translate(100 100)" />
+         </svg>  
+    </div>
+
+    <header class="header">
+        <h1 class="h1"><a href="index.html" title="Ana González" class="a">Ana González</a></h1>
+        <nav class="nav">
+            <ul class="ul">
+                <li class="li"><a href="#inicio" title="Inicio" class="a">Inicio</a></li>
+                <li class="li"><a href="#works" title="Works" class="a">Trabajos</a></li>
+                <li class="li"><a href="#about" title="About" class="a">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="main">
+        <div class="seccion" id="inicio">
+            <section class="section info">
+                <h2 class="h2">Ana González</h2>
+                <h3 class="h3">Frontend Developer</h3>
+
+                <ul class="ul">
+                    <li class="li"><a href="https://github.com/axa0787" target="_blank" rel="noopener noreferrer" class="a" title="Github">
+                            Visitar mi Github</a>
+                    </li>
+                    <li class="li"><a href="https://www.linkedin.com/in/ana-gonzalez-950110118/" target="_blank" rel="noopener noreferrer" class="a" title="LinkedIn">
+                            Visitar mi LinkedIn</a>
+                    </li>
+                </ul>
+
+            </section>
+        </div>
+
+        <section class="seccion works" id="works">
+            <h2 class="h2">Trabajos</h2>
+            <p class="p">Aquí te presento mis trabajos mientras estudiaba un curso de HTML, CSS y Javascript</p>
+
+            <div class="grid">
+                <articule class="article">
+                    <a class="a" href="https://freelanceranab.netlify.app/" target="_blank" rel="noopener noreferrer" title="freelanceranab" >
+                        <figure class="figure">
+                            <img src="assets/freelancer.jpg" alt="Imagen" class="img" loading="lazy">
+                        </figure>
+                        <h4 class="h4">Freelancer</h4>
+                    </a>
+                </articule>
+                <articule class="article">
+                    <a class="a" href="https://bloganab.netlify.app/" target="_blank" rel="noopener noreferrer" title="Blog">
+                        <figure class="figure">
+                            <img src="assets/blog.jpg" alt="Imagen" class="img" loading="lazy">
+                        </figure>
+                        <h4 class="h4">Blog</h4>
+                    </a>
+                </articule>
+                <articule class="article">
+                    <a class="a" href="https://storeanab.netlify.app/" target="_blank" rel="noopener noreferrer" title="Store">
+                        <figure class="figure">
+                            <img src="assets/store.jpg" alt="Imagen" class="img" loading="lazy">
+                        </figure>
+                        <h4 class="h4">Store</h4>
+                    </a>
+                </articule>
+            </div>
+
+        </section> 
+
+        <section class="seccion about" id="about">
+            <h2 class="h2">Sobre mi</h2>
+            <p class="p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis accusamus suscipit quod est
+                repellendus fuga?</p>
+            <p class="p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis accusamus suscipit quod est
+                repellendus fuga?</p>
+            <p class="p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis accusamus suscipit quod est
+                repellendus fuga?</p>
+
+            <ul class="rrss">
+                <li class="li">
+                    <a href="https://github.com/axa0787" class="a" title="Github" target="_blank" rel="noopener noreferrer">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="svg" viewBox="0 0 16 16">
+                            <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.012 8.012 0 0 0 16 8c0-4.42-3.58-8-8-8z"/>
+                          </svg>
+                    </a>
+                </li>
+                <li class="li">
+                    <a href="https://www.linkedin.com/in/ana-gonzalez-950110118/" class="a" title="LinkedIn" target="_blank" rel="noopener noreferrer">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="svg" viewBox="0 0 16 16">
+                            <path d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854V1.146zm4.943 12.248V6.169H2.542v7.225h2.401zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248-.822 0-1.359.54-1.359 1.248 0 .694.521 1.248 1.327 1.248h.016zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016a5.54 5.54 0 0 1 .016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225h2.4z"/>
+                          </svg>
+                    </a>
+                </li>
+            </ul>
+        </section>
+
+    </main>
+
+    <footer class="footer">
+        <span class="span">Hecho con amor ღ Ana González</span>
+
+    </footer>
+
+</body>
+
+</html>
+
+
